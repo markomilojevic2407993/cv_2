@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+.flexDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#slika{
+    overflow: hidden;
+}
+.meni{
+    border: 1px solid green;
+    background: rgb(49, 71, 15);
+    text-align: center;
+    margin:15px 50px ;
+    width: 500px;
+    height: auto;
+}
+.meni a{
+    padding-right: 46px;
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.meni a:hover{
+    font-size: x-large;
+    color: azure;
+}
+h1, h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+h2 {
+    text-decoration: underline;
+    color: rgb(3, 97, 3);
+
+}
+p{
+    font-size: large;
+}
+#linkovi{
+    margin-top: 40px;
+}
+#linkovi a{
+    
+    padding-right: 20px;
+}
+.footer{
+    margin-top:50px ;
+}
